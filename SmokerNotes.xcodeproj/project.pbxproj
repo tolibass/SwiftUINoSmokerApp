@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C1CBC3D258D86120096B313 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CBC37258D86120096B313 /* UserViewModel.swift */; };
+		1C1CBC3E258D86120096B313 /* ThoughtsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CBC38258D86120096B313 /* ThoughtsModel.swift */; };
+		1C1CBC3F258D86120096B313 /* CRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CBC39258D86120096B313 /* CRUD.swift */; };
+		1C1CBC40258D86120096B313 /* AddThoughts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CBC3A258D86120096B313 /* AddThoughts.swift */; };
+		1C1CBC41258D86120096B313 /* SingUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CBC3B258D86120096B313 /* SingUp.swift */; };
+		1C1CBC42258D86120096B313 /* SmokingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CBC3C258D86120096B313 /* SmokingList.swift */; };
+		1C1CBC50258DC90B0096B313 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1CBC4F258DC90B0096B313 /* WidgetKit.framework */; };
+		1C1CBC52258DC90B0096B313 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1CBC51258DC90B0096B313 /* SwiftUI.framework */; };
+		1C1CBC55258DC90B0096B313 /* SmokerNotesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CBC54258DC90B0096B313 /* SmokerNotesWidget.swift */; };
+		1C1CBC57258DC90F0096B313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1CBC56258DC90F0096B313 /* Assets.xcassets */; };
+		1C1CBC5B258DC90F0096B313 /* SmokerNotesWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1C1CBC4E258DC90A0096B313 /* SmokerNotesWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1C1CBC6D258DCB260096B313 /* CRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CBC39258D86120096B313 /* CRUD.swift */; };
+		1C1CBC70258DCB320096B313 /* ThoughtsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CBC38258D86120096B313 /* ThoughtsModel.swift */; };
+		1CC3DDFA258D83D20091A0C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3DDF9258D83D20091A0C6 /* AppDelegate.swift */; };
+		1CC3DDFC258D83D20091A0C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3DDFB258D83D20091A0C6 /* SceneDelegate.swift */; };
+		1CC3DDFE258D83D20091A0C6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3DDFD258D83D20091A0C6 /* ContentView.swift */; };
+		1CC3DE00258D83D90091A0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC3DDFF258D83D90091A0C6 /* Assets.xcassets */; };
+		1CC3DE03258D83D90091A0C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC3DE02258D83D90091A0C6 /* Preview Assets.xcassets */; };
+		1CC3DE06258D83D90091A0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC3DE04258D83D90091A0C6 /* LaunchScreen.storyboard */; };
+		7F4A0309D64BB19FA137857D /* Pods_SmokerNotes_SmokerNotesWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6C56FE7258838E38F27474 /* Pods_SmokerNotes_SmokerNotesWidgetExtension.framework */; };
+		D33EA7C19196D070F7795193 /* Pods_SmokerNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847FDE7BB70C10D6E9035C46 /* Pods_SmokerNotes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C1CBC59258DC90F0096B313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CC3DDEE258D83D20091A0C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C1CBC4D258DC90A0096B313;
+			remoteInfo = SmokerNotesWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1C1CBC5C258DC90F0096B313 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1C1CBC5B258DC90F0096B313 /* SmokerNotesWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E6C56FE7258838E38F27474 /* Pods_SmokerNotes_SmokerNotesWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmokerNotes_SmokerNotesWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1CBC37258D86120096B313 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		1C1CBC38258D86120096B313 /* ThoughtsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtsModel.swift; sourceTree = "<group>"; };
+		1C1CBC39258D86120096B313 /* CRUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRUD.swift; sourceTree = "<group>"; };
+		1C1CBC3A258D86120096B313 /* AddThoughts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddThoughts.swift; sourceTree = "<group>"; };
+		1C1CBC3B258D86120096B313 /* SingUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingUp.swift; sourceTree = "<group>"; };
+		1C1CBC3C258D86120096B313 /* SmokingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmokingList.swift; sourceTree = "<group>"; };
+		1C1CBC4E258DC90A0096B313 /* SmokerNotesWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SmokerNotesWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1CBC4F258DC90B0096B313 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1C1CBC51258DC90B0096B313 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1C1CBC54258DC90B0096B313 /* SmokerNotesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokerNotesWidget.swift; sourceTree = "<group>"; };
+		1C1CBC56258DC90F0096B313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C1CBC58258DC90F0096B313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C1CBC73258DCD120096B313 /* SmokerNotesWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmokerNotesWidgetExtension.entitlements; sourceTree = "<group>"; };
+		1C1CBC76258DCD730096B313 /* SmokerNotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmokerNotes.entitlements; sourceTree = "<group>"; };
+		1CC3DDF6258D83D20091A0C6 /* SmokerNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmokerNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC3DDF9258D83D20091A0C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CC3DDFB258D83D20091A0C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1CC3DDFD258D83D20091A0C6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CC3DDFF258D83D90091A0C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CC3DE02258D83D90091A0C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CC3DE05258D83D90091A0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CC3DE07258D83D90091A0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9E7E967FE89099FCDD9F04 /* Pods-SmokerNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokerNotes.debug.xcconfig"; path = "Target Support Files/Pods-SmokerNotes/Pods-SmokerNotes.debug.xcconfig"; sourceTree = "<group>"; };
+		4D5B5458A3DECAD8A8512B73 /* Pods-SmokerNotes-SmokerNotesWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokerNotes-SmokerNotesWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-SmokerNotes-SmokerNotesWidgetExtension/Pods-SmokerNotes-SmokerNotesWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		847FDE7BB70C10D6E9035C46 /* Pods_SmokerNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmokerNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9206994E420A65A7D63C68C3 /* Pods-SmokerNotes-SmokerNotesWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokerNotes-SmokerNotesWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-SmokerNotes-SmokerNotesWidgetExtension/Pods-SmokerNotes-SmokerNotesWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		E76918A2CA1907F3B281C556 /* Pods-SmokerNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokerNotes.release.xcconfig"; path = "Target Support Files/Pods-SmokerNotes/Pods-SmokerNotes.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C1CBC4B258DC90A0096B313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1CBC52258DC90B0096B313 /* SwiftUI.framework in Frameworks */,
+				1C1CBC50258DC90B0096B313 /* WidgetKit.framework in Frameworks */,
+				7F4A0309D64BB19FA137857D /* Pods_SmokerNotes_SmokerNotesWidgetExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC3DDF3258D83D20091A0C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33EA7C19196D070F7795193 /* Pods_SmokerNotes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C1CBC53258DC90B0096B313 /* SmokerNotesWidget */ = {
+			isa = PBXGroup;
+			children = (
+				1C1CBC54258DC90B0096B313 /* SmokerNotesWidget.swift */,
+				1C1CBC56258DC90F0096B313 /* Assets.xcassets */,
+				1C1CBC58258DC90F0096B313 /* Info.plist */,
+			);
+			path = SmokerNotesWidget;
+			sourceTree = "<group>";
+		};
+		1CC3DDED258D83D20091A0C6 = {
+			isa = PBXGroup;
+			children = (
+				1C1CBC73258DCD120096B313 /* SmokerNotesWidgetExtension.entitlements */,
+				1CC3DDF8258D83D20091A0C6 /* SmokerNotes */,
+				1C1CBC53258DC90B0096B313 /* SmokerNotesWidget */,
+				1CC3DDF7258D83D20091A0C6 /* Products */,
+				E69DD7F16DEAD4645818B187 /* Pods */,
+				9624FE55D0AFEB8B867BEE0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CC3DDF7258D83D20091A0C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CC3DDF6258D83D20091A0C6 /* SmokerNotes.app */,
+				1C1CBC4E258DC90A0096B313 /* SmokerNotesWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC3DDF8258D83D20091A0C6 /* SmokerNotes */ = {
+			isa = PBXGroup;
+			children = (
+				1C1CBC76258DCD730096B313 /* SmokerNotes.entitlements */,
+				1CC3DDF9258D83D20091A0C6 /* AppDelegate.swift */,
+				1CC3DDFB258D83D20091A0C6 /* SceneDelegate.swift */,
+				1C1CBC3A258D86120096B313 /* AddThoughts.swift */,
+				1C1CBC39258D86120096B313 /* CRUD.swift */,
+				1C1CBC38258D86120096B313 /* ThoughtsModel.swift */,
+				1C1CBC3B258D86120096B313 /* SingUp.swift */,
+				1C1CBC3C258D86120096B313 /* SmokingList.swift */,
+				1C1CBC37258D86120096B313 /* UserViewModel.swift */,
+				1CC3DDFD258D83D20091A0C6 /* ContentView.swift */,
+				1CC3DDFF258D83D90091A0C6 /* Assets.xcassets */,
+				1CC3DE04258D83D90091A0C6 /* LaunchScreen.storyboard */,
+				1CC3DE07258D83D90091A0C6 /* Info.plist */,
+				1CC3DE01258D83D90091A0C6 /* Preview Content */,
+			);
+			path = SmokerNotes;
+			sourceTree = "<group>";
+		};
+		1CC3DE01258D83D90091A0C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1CC3DE02258D83D90091A0C6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9624FE55D0AFEB8B867BEE0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847FDE7BB70C10D6E9035C46 /* Pods_SmokerNotes.framework */,
+				1C1CBC4F258DC90B0096B313 /* WidgetKit.framework */,
+				1C1CBC51258DC90B0096B313 /* SwiftUI.framework */,
+				0E6C56FE7258838E38F27474 /* Pods_SmokerNotes_SmokerNotesWidgetExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E69DD7F16DEAD4645818B187 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A9E7E967FE89099FCDD9F04 /* Pods-SmokerNotes.debug.xcconfig */,
+				E76918A2CA1907F3B281C556 /* Pods-SmokerNotes.release.xcconfig */,
+				9206994E420A65A7D63C68C3 /* Pods-SmokerNotes-SmokerNotesWidgetExtension.debug.xcconfig */,
+				4D5B5458A3DECAD8A8512B73 /* Pods-SmokerNotes-SmokerNotesWidgetExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C1CBC4D258DC90A0096B313 /* SmokerNotesWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C1CBC5F258DC90F0096B313 /* Build configuration list for PBXNativeTarget "SmokerNotesWidgetExtension" */;
+			buildPhases = (
+				D1BD7214BA4BCE2A9D7CFF58 /* [CP] Check Pods Manifest.lock */,
+				1C1CBC4A258DC90A0096B313 /* Sources */,
+				1C1CBC4B258DC90A0096B313 /* Frameworks */,
+				1C1CBC4C258DC90A0096B313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmokerNotesWidgetExtension;
+			productName = SmokerNotesWidgetExtension;
+			productReference = 1C1CBC4E258DC90A0096B313 /* SmokerNotesWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1CC3DDF5258D83D20091A0C6 /* SmokerNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CC3DE0A258D83D90091A0C6 /* Build configuration list for PBXNativeTarget "SmokerNotes" */;
+			buildPhases = (
+				D936832C341377C6A45FF66A /* [CP] Check Pods Manifest.lock */,
+				1CC3DDF2258D83D20091A0C6 /* Sources */,
+				1CC3DDF3258D83D20091A0C6 /* Frameworks */,
+				1CC3DDF4258D83D20091A0C6 /* Resources */,
+				48796617D029F5BED00BF6B8 /* [CP] Embed Pods Frameworks */,
+				1C1CBC5C258DC90F0096B313 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C1CBC5A258DC90F0096B313 /* PBXTargetDependency */,
+			);
+			name = SmokerNotes;
+			productName = SmokerNotes;
+			productReference = 1CC3DDF6258D83D20091A0C6 /* SmokerNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CC3DDEE258D83D20091A0C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1C1CBC4D258DC90A0096B313 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					1CC3DDF5258D83D20091A0C6 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 1CC3DDF1258D83D20091A0C6 /* Build configuration list for PBXProject "SmokerNotes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CC3DDED258D83D20091A0C6;
+			productRefGroup = 1CC3DDF7258D83D20091A0C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CC3DDF5258D83D20091A0C6 /* SmokerNotes */,
+				1C1CBC4D258DC90A0096B313 /* SmokerNotesWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C1CBC4C258DC90A0096B313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1CBC57258DC90F0096B313 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC3DDF4258D83D20091A0C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC3DE06258D83D90091A0C6 /* LaunchScreen.storyboard in Resources */,
+				1CC3DE03258D83D90091A0C6 /* Preview Assets.xcassets in Resources */,
+				1CC3DE00258D83D90091A0C6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48796617D029F5BED00BF6B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmokerNotes/Pods-SmokerNotes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmokerNotes/Pods-SmokerNotes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmokerNotes/Pods-SmokerNotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BD7214BA4BCE2A9D7CFF58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmokerNotes-SmokerNotesWidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D936832C341377C6A45FF66A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmokerNotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C1CBC4A258DC90A0096B313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1CBC70258DCB320096B313 /* ThoughtsModel.swift in Sources */,
+				1C1CBC55258DC90B0096B313 /* SmokerNotesWidget.swift in Sources */,
+				1C1CBC6D258DCB260096B313 /* CRUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC3DDF2258D83D20091A0C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C1CBC42258D86120096B313 /* SmokingList.swift in Sources */,
+				1C1CBC3E258D86120096B313 /* ThoughtsModel.swift in Sources */,
+				1CC3DDFA258D83D20091A0C6 /* AppDelegate.swift in Sources */,
+				1C1CBC3D258D86120096B313 /* UserViewModel.swift in Sources */,
+				1CC3DDFC258D83D20091A0C6 /* SceneDelegate.swift in Sources */,
+				1CC3DDFE258D83D20091A0C6 /* ContentView.swift in Sources */,
+				1C1CBC41258D86120096B313 /* SingUp.swift in Sources */,
+				1C1CBC3F258D86120096B313 /* CRUD.swift in Sources */,
+				1C1CBC40258D86120096B313 /* AddThoughts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C1CBC5A258DC90F0096B313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C1CBC4D258DC90A0096B313 /* SmokerNotesWidgetExtension */;
+			targetProxy = 1C1CBC59258DC90F0096B313 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CC3DE04258D83D90091A0C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CC3DE05258D83D90091A0C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C1CBC5D258DC90F0096B313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9206994E420A65A7D63C68C3 /* Pods-SmokerNotes-SmokerNotesWidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SmokerNotesWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DZ4JHZ65S;
+				INFOPLIST_FILE = SmokerNotesWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.SmokerNotes.SmokerNotesWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C1CBC5E258DC90F0096B313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5B5458A3DECAD8A8512B73 /* Pods-SmokerNotes-SmokerNotesWidgetExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SmokerNotesWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DZ4JHZ65S;
+				INFOPLIST_FILE = SmokerNotesWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.SmokerNotes.SmokerNotesWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CC3DE08258D83D90091A0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CC3DE09258D83D90091A0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CC3DE0B258D83D90091A0C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9E7E967FE89099FCDD9F04 /* Pods-SmokerNotes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmokerNotes/SmokerNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmokerNotes/Preview Content\"";
+				DEVELOPMENT_TEAM = 8DZ4JHZ65S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmokerNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.SmokerNotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CC3DE0C258D83D90091A0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E76918A2CA1907F3B281C556 /* Pods-SmokerNotes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SmokerNotes/SmokerNotes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmokerNotes/Preview Content\"";
+				DEVELOPMENT_TEAM = 8DZ4JHZ65S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmokerNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.SmokerNotes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C1CBC5F258DC90F0096B313 /* Build configuration list for PBXNativeTarget "SmokerNotesWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1CBC5D258DC90F0096B313 /* Debug */,
+				1C1CBC5E258DC90F0096B313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC3DDF1258D83D20091A0C6 /* Build configuration list for PBXProject "SmokerNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC3DE08258D83D90091A0C6 /* Debug */,
+				1CC3DE09258D83D90091A0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CC3DE0A258D83D90091A0C6 /* Build configuration list for PBXNativeTarget "SmokerNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CC3DE0B258D83D90091A0C6 /* Debug */,
+				1CC3DE0C258D83D90091A0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CC3DDEE258D83D20091A0C6 /* Project object */;
+}
